@@ -61,6 +61,10 @@ header a:hover{
 	color: white;
 	font-weight: bold;
 }
+.pic img{
+	position: relative;
+	top: 60px;
+}
 #snak{
 	height: 400px;
 	text-align: center;
@@ -82,7 +86,7 @@ header a:hover{
 	padding-top: 60px;
 	background-color: #f2f2f2;
 }
-#deux button , .mem button{
+#deux button , .mem button , .large button{
 	height: 45px;
 	width: 180px;
 	background-color: black;
@@ -123,12 +127,59 @@ h2{
 	padding-top: 60px;
 }
 .mem2{
-	height: 200px;
+	height: 300px;
 	background-color: #f2f2f2;
 	text-align: center;
 	padding-top: 40px;
 }
-
+.large{
+	height: 700px;
+	width: 1320px;
+	background: url(../images-KIND/biscuit.png);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 160PX;
+}
+#trois{
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 13em;
+	background: black;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+.un{
+	height: 450px;
+	width: 300px;
+	background: white;
+	position: relative;
+	bottom: 90px;
+}
+.texto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#trois button{
+	width: 100px;
+	height: 35px;
+	background: transparent;
+	border: 1px solid;
+	font-weight: bold;
+}
+#trois button:hover{
+	background: black;
+	color: white;
+}
+.second{
+	margin-top: 18px;
+}
 footer{
 	height: 330px;
 	background-color: black;
